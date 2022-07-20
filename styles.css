@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;800&display=swap');
+
+
+/* very dark blue #252b42
+ sky blue #23a6f0
+ light dark blue rgb(7, 7, 87)
+ purple #b00cf4
+ white-like #fbfcfb */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat';
+}
+body{
+   
+    background-size:100%;
+    background-repeat: no-repeat;
+    width : 100%;
+    height: 100%;
+    background-color:white;
+}
+.container{
+    border: 2px solid green;
+    height: 100vh;
+    width: 100vw;
+    padding: 60px;
+    
+}
+.container-1{
+    display: flex;
+    flex-direction: column;
+    background-image: 
+    /* filter brightness(50%), */
+    url("images/hero.png");
+    
+    background-size: 100% ;
+    
+    width: 100%;
+    height: 700px;
+    filter: brightness();
+    
+    background-repeat: no-repeat;
+  
+}
+.top-container-1{
+    display: flex;
+    flex-direction:  row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    
+}
+nav{
+    display: flex;
+    gap: 20px;
+}
+.top-right{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    color: white;
+
+}
+.top-left{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    color: white;
+}
+.signup button{
+    background-color:#23a6f0;
+    color: white;
+    border-style: none;
+    border-radius: 3px;
+    height: 30px;
+    width: 150px;
+}
+.top-container-2{
+    height: 100vh;
+    text-align: center;
+    padding-top: 200px;
+    color: white;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.content h1{
+    font-size: 50px;
+}
+.content button{
+    height: 50px;
+    width: 150px;
+    border-radius: 40px;
+    color: white;
+    
+}
+.content .btnQuoteNow{
+    background-color: #23a6f0;
+    border: none;
+
+}
+.content .btnLearnMore{
+    background-color: transparent;
+    border: 1px solid white;
+}
+.footers{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 100px;
+}
+.footer1,.footer2,.footer3 {
+    height: 150px;
+    /* border: solid 2px red; */
+    text-align: left;
+    padding: 25px;
+    
+}
+.footer1,.footer2{
+    color: black;
+    background-color: #fbfcfb;
+}
+.footer3{
+    background-color: #23a6f0;
+}
